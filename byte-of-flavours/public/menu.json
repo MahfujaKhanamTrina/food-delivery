@@ -1,0 +1,814 @@
+[
+    {
+      "_id": "1",
+      "name": "BBQ Chicken Wings",
+      "recipe": "Chicken wings coated in crispy batter and deep fried, mixed with bbq sauce and served with garlic sauce.",
+      "image": "https://www.restlesschipotle.com/wp-content/uploads/2022/08/Crispy-Oven-Baked-Chicken-Wings-feat2.jpg",
+      "category": "appetizer",
+      "price": 250,
+      "nutrition": {
+        "calories": "500 kcal",
+        "protein": "20 g",
+        "fat": "35 g",
+        "carbohydrates": "25 g",
+        "sodium": "600 mg"
+      }
+    },
+    {
+      "_id": "2",
+      "name": "Margherita Pizza",
+      "recipe": "A classic Italian pizza topped with fresh mozzarella, ripe tomatoes, and fragrant basil on a thin, crispy crust. Finished with a drizzle of olive oil.",
+      "image": "https://www.sunset.com/wp-content/uploads/margherita-pizza-0210-1.jpg",
+      "category": "pizza",
+      "price": 549,
+      "nutrition": {
+        "calories": "600 kcal",
+        "protein": "25 g",
+        "fat": "28 g",
+        "carbohydrates": "65 g",
+        "sodium": "800 mg"
+      }
+    },
+    {
+      "_id": "3",
+      "name": "Spaghetti Carbonara",
+      "recipe": "Classic Italian pasta dish with creamy sauce made from eggs, Parmesan cheese, pancetta, and freshly ground black pepper. A rich and comforting meal!",
+      "image": "https://www.kroger.com/content/v2/binary/image/imageset_simple-spaghetti-carbonara--30_simple-spaghetti-carbonara_evergreen-reshoot_p_22-tkc-0112_b.jpg",
+      "category": "pasta",
+      "price": 350,
+      "nutrition": {
+        "calories": "550 kcal",
+        "protein": "18 g",
+        "fat": "22 g",
+        "carbohydrates": "60 g",
+        "sodium": "500 mg"
+      }
+    },
+    {
+        "_id": "4",
+        "name": "Chicken Corn Soup",
+        "recipe": "A bowl of creamy chicken corn soup made with tender chicken pieces, sweet corn, and aromatic herbs. Perfect as a light meal or appetizer!",
+        "image": "https://www.kitchensanctuary.com/wp-content/uploads/2023/06/Chicken-and-Sweetcorn-Soup-square-FS-500x500.jpg",
+        "category": "soup",
+        "price": 220,
+        "nutrition": {
+          "calories": "220 kcal",
+          "protein": "15 g",
+          "fat": "6 g",
+          "carbohydrates": "30 g",
+          "sodium": "400 mg"
+        }
+      },
+    {
+      "_id": "5",
+      "name": "Chicken Fried Rice",
+      "recipe": "A savory stir-fry of fluffy rice, tender chicken pieces, and colorful vegetables, all tossed together in a soy sauce blend.",
+      "image": "https://lifeloveandgoodfood.com/wp-content/uploads/2023/03/chicken_fried_rice00032a-1200x1200-1.jpg",
+      "category": "meal",
+      "price": 320,
+      "nutrition": {
+        "calories": "650 kcal",
+        "protein": "30 g",
+        "fat": "20 g",
+        "carbohydrates": "90 g",
+        "sodium": "800 mg"
+      }
+    },
+    {
+      "_id": "6",
+      "name": "Mango Smoothie",
+      "recipe": "A refreshing blend of ripe mangoes, creamy yogurt, and a splash of honey, blended to perfection for a smooth, tropical treat.",
+      "image": "https://www.unicornsinthekitchen.com/wp-content/uploads/2018/06/Mango-Milkshake-with-Cardamom-square.jpg",
+      "category": "drinks",
+      "price": 250,
+      "nutrition": {
+        "calories": "250 kcal",
+        "protein": "6 g",
+        "fat": "3 g",
+        "carbohydrates": "55 g",
+        "sodium": "80 mg"
+      }
+    },
+    {
+      "_id": "7",
+      "name": "Chocolate Lava Cake",
+      "recipe": "Rich chocolate cake with a molten center, served with vanilla ice cream and raspberry.",
+      "image": "https://www.barleyandsage.com/wp-content/uploads/2024/01/chocolate-lava-cakes-1200x1200-1.jpg",
+      "category": "dessert",
+      "price": 280,
+      "nutrition": {
+        "calories": "700 kcal",
+        "protein": "10 g",
+        "fat": "40 g",
+        "carbohydrates": "80 g",
+        "sodium": "300 mg"
+      }
+    },
+    {
+      "_id": "8",
+      "name": "Greek Salad",
+      "recipe": "A vibrant mix of fresh tomatoes, cucumbers, red onions, Kalamata olives, and feta cheese, drizzled with olive oil and oregano.",
+      "image": "https://www.lastingredient.com/wp-content/uploads/2021/07/greek-chickpea-salad5-500x500.jpg",
+      "category": "salad",
+      "price": 380,
+      "nutrition": {
+        "calories": "180 kcal",
+        "protein": "5 g",
+        "fat": "15 g",
+        "carbohydrates": "8 g",
+        "sodium": "500 mg"
+      }
+    },
+    {
+      "_id": "9",
+      "name": "Chicken Alfredo Pasta",
+      "recipe": "Tender chicken and fettuccine noodles tossed in a rich, creamy Alfredo sauce made with butter, garlic, and Parmesan cheese. A satisfying, comforting dish!",
+      "image": "https://www.foodiecrush.com/wp-content/uploads/2018/10/Chicken-Alfredo-Instant-Pot-foodiecrush.com-019-500x500.jpg",
+      "category": "pasta",
+      "price": 430,
+      "nutrition": {
+        "calories": "750 kcal",
+        "protein": "35 g",
+        "fat": "40 g",
+        "carbohydrates": "70 g",
+        "sodium": "900 mg"
+      }
+    },
+    {
+        "_id": "10",
+        "name": "Basil Chicken Rice",
+        "recipe": "Juicy basil chicken served over a bed of fragrant jasmine rice, garnished with fresh basil and served with a side of spicy dipping sauce.",
+        "image": "https://www.foodfashionparty.com/wp-content/uploads/2020/07/basil-chicken-1-scaled-1200x1200.jpg",
+        "category": "meal",
+        "price": 280,
+        "nutrition": {
+          "calories": "650 kcal",
+          "protein": "38 g",
+          "fat": "20 g",
+          "carbohydrates": "70 g",
+          "sodium": "800 mg"
+        }
+      },    
+    {
+        "_id": "11",
+        "name": "Veggie Pizza",
+        "recipe": "A colorful mix of bell peppers, onions, olives, mushrooms, and spinach on a rich tomato sauce and mozzarella base.",
+        "image": "https://www.eatingwell.com/thmb/wy6f9ea1yMiA_L18PI3wro8tyE4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/easy-vegan-pizza-8049317-step-6-65fe27ad89a0447991c624079a990ac5.jpg",
+        "category": "pizza",
+        "price": 480,
+        "nutrition": {
+          "calories": "240 kcal",
+          "protein": "10 g",
+          "fat": "8 g",
+          "carbohydrates": "36 g",
+          "sodium": "450 mg"
+        }
+      },
+    {
+        "_id": "12",
+        "name": "Garlic Bread",
+        "recipe": "Crispy, golden bread slices brushed with a rich garlic butter sauce, topped with herbs. Perfect as a side or appetizer for any meal.",
+        "image": "https://www.sipandfeast.com/wp-content/uploads/2022/07/garlic-bread-recipe-snippet.jpg",
+        "category": "appetizer",
+        "price": 170,
+        "nutrition": {
+          "calories": "350 kcal",
+          "protein": "8 g",
+          "fat": "15 g",
+          "carbohydrates": "45 g",
+          "sodium": "600 mg"
+        }
+      },
+      {
+        "_id": "13",
+        "name": "Cream of Mushroom Soup",
+        "recipe": "A soup made with fresh mushrooms, garlic, and cream, blended to perfection for a warm and comforting dish. Ideal as an appetizer or paired with crusty bread!",
+        "image": "https://www.sharmispassions.com/wp-content/uploads/2014/11/MushroomSoup5-500x500.jpg",
+        "category": "soup",
+        "price": 320,
+        "nutrition": {
+          "calories": "250 kcal",
+          "protein": "7 g",
+          "fat": "15 g",
+          "carbohydrates": "22 g",
+          "sodium": "600 mg"
+        }
+      },
+      {
+        "_id": "14",
+        "name": "Cheese Pizza",
+        "recipe": " A simple yet delicious pizza with a generous layer of melted mozzarella cheese on a soft, chewy crust. Perfect for cheese lovers!",
+        "image": "https://www.usdairy.com/getmedia/7d86c6fd-aecb-4b7f-a246-3373e9604cf4/cauliflower_pizza2.jpg?width=1500&height=1500&ext=.jpg",
+        "category": "pizza",
+        "price": 350,
+        "nutrition": {
+          "calories": "600 kcal",
+          "protein": "22 g",
+          "fat": "25 g",
+          "carbohydrates": "70 g",
+          "sodium": "850 mg"
+        }
+      },
+      {
+        "_id": "15",
+        "name": "Beef Steak",
+        "recipe": "Grilled beef marinated in a blend of herbs and spices, served with a side of mashed potatoes and seasonal vegetables.",
+        "image": "https://thebigmansworld.com/wp-content/uploads/2023/04/cast-iron-steak-recipe.jpg",
+        "category": "meal",
+        "price": 980,
+        "nutrition": {
+          "calories": "550 kcal",
+          "protein": "45 g",
+          "fat": "25 g",
+          "carbohydrates": "30 g",
+          "sodium": "600 mg"
+        }
+      },
+      {
+        "_id": "16",
+        "name": "Chicken Caesar Salad",
+        "recipe": "Crisp romaine lettuce topped with grilled chicken, crunchy croutons, and shaved Parmesan, all tossed in a creamy Caesar dressing. A classic dish that balances rich flavors with a refreshing crunch!",
+        "image": "https://s23209.pcdn.co/wp-content/uploads/2023/01/220905_DD_Chx-Caesar-Salad_051-500x500.jpg",
+        "category": "salad",
+        "price": 380,
+        "nutrition": {
+          "calories": "420 kcal",
+          "protein": "35 g",
+          "fat": "22 g",
+          "carbohydrates": "20 g",
+          "sodium": "700 mg"
+        }
+      },
+      {
+        "_id": "17",
+        "name": "Lemon Iced Tea",
+        "recipe": "A refreshing beverage made with brewed black tea, freshly squeezed lemon juice, and a touch of sweetness, served chilled over ice. ",
+        "image": "https://teacultureoftheworld.com/cdn/shop/files/Image1_600x.jpg?v=1699359685",
+        "category": "drinks",
+        "price": 160,
+        "nutrition": {
+          "calories": "100 kcal",
+          "protein": "0 g",
+          "fat": "0 g",
+          "carbohydrates": "25 g",
+          "sodium": "10 mg"
+        }
+      },
+      {
+        "_id": "18",
+        "name": "Beef Tacos",
+        "recipe": "Soft tortillas filled with seasoned ground beef, fresh lettuce, tomatoes, and shredded cheese. Topped with tangy salsa and sour cream for a deliciously balanced bite.",
+        "image": "https://joyfoodsunshine.com/wp-content/uploads/2022/04/mexian-ground-beef-tacos-recipe-9.jpg",
+        "category": "appetizer",
+        "price": 250,
+        "nutrition": {
+          "calories": "450 kcal",
+          "protein": "20 g",
+          "fat": "25 g",
+          "carbohydrates": "35 g",
+          "sodium": "800 mg"
+        }
+      },
+      {
+        "_id": "19",
+        "name": "Vanilla Milkshake",
+        "recipe": "A creamy and refreshing blend of vanilla yogurt, almond milk, and ripe bananas, delivering a smooth and delightful taste.",
+        "image": "https://www.allrecipes.com/thmb/Qd8R0_0oOotU9rjJjTcRhKcCSKc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-238627-Vanilla-Milkshakes-without-Ice-Cream-DDMFS-4x3-68c7af8ca6714848a5e4c904996152e3.jpg",
+        "category": "drinks",
+        "price": 250,
+        "nutrition": {
+          "calories": "350 kcal",
+          "protein": "8 g",
+          "fat": "12 g",
+          "carbohydrates": "50 g",
+          "sodium": "200 mg"
+        }
+      },
+      {
+        "_id": "20",
+        "name": "Honey Garlic Chicken",
+        "recipe": "Juicy chicken thighs glazed with a sweet and savory honey garlic sauce, served with steamed rice.",
+        "image": "https://midwestfoodieblog.com/wp-content/uploads/2024/02/garlic-chicken-with-honey-feature-image-1.jpg",
+        "category": "meal",
+        "price": 550,
+        "nutrition_info": {
+            "calories": "400 kcal",
+            "protein": "30 g",
+            "fat": "20 g",
+            "carbohydrates": "25 g",
+            "sodium": "600 mg"
+        }
+      },   
+      {
+        "_id": "21",
+        "name": "Macaroni and Cheese",
+        "recipe": "A creamy blend of melted cheddar cheese and elbow macaroni, baked to perfection for a warm, comforting meal. Perfect for cheese lovers!",
+        "image": "https://www.savorysimple.net/wp-content/uploads/2018/10/Macaroni-and-Cheese-Recipe-square_0004-500x500.jpg",
+        "category": "pasta",
+        "price": 500,
+        "nutrition": {
+          "calories": "400 kcal",
+          "protein": "15 g",
+          "fat": "20 g",
+          "carbohydrates": "45 g",
+          "sodium": "600 mg"
+        }
+      },
+      {
+        "_id": "22",
+        "name": "Thai Soup",
+        "recipe": "A flavorful soup made with lemongrass, shrimp or chicken, garnished with fresh herbs.",
+        "image": "https://fettysfoodblog.com/wp-content/uploads/2024/01/Crock-Pot%C2%AE-Thai-Red-Curry-Soup6-500x500.jpg",
+        "category": "soup",
+        "price": 250,
+        "nutrition": {
+          "calories": "300 kcal",
+          "protein": "15 g",
+          "fat": "18 g",
+          "carbohydrates": "20 g",
+          "sodium": "800 mg"
+        }
+      },
+      {
+        "_id": "23",
+        "name": "Pepperoni Pizza",
+        "recipe": "A classic pizza topped with slices of spicy pepperoni and melted mozzarella cheese on a crispy, golden crust. A perfect combination of flavors!",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81dFV2VQfKL._AC_SL1500_.jpg",
+        "category": "pizza",
+        "price": 750,
+        "nutrition": {
+          "calories": "320 kcal",
+          "protein": "15 g",
+          "fat": "16 g",
+          "carbohydrates": "36 g",
+          "sodium": "800 mg"
+        }
+      },
+      {
+        "_id": "24",
+        "name": "Seafood Soup",
+        "recipe": "Seafood such as shrimp, fish, and mussels, simmered in broth with herbs and spices.",
+        "image": "https://www.cookrepublic.com/wp-content/uploads/2021/04/zuppa-di-pesce-italian-seafood-soup01-500x500.jpg",
+        "category": "soup",
+        "price": 450,
+        "nutrition": {
+          "calories": "350 kcal",
+          "protein": "30 g",
+          "fat": "15 g",
+          "carbohydrates": "25 g",
+          "sodium": "600 mg"
+        }
+      },
+      {
+        "_id": "25",
+        "name": "Strawberry Shake",
+        "recipe": "A refreshing blend of fresh strawberries, milk, vanilla ice cream, and a touch of sugar, topped with whipped cream and strawberry syrup.",
+        "image": "https://www.thehungrybites.com/wp-content/uploads/2023/06/Strawberry-milkshake-frappuccino-featured.jpg",
+        "category": "drinks",
+        "price": 320,
+        "nutrition": {
+          "calories": "350 kcal",
+          "protein": "7 g",
+          "fat": "15 g",
+          "carbohydrates": "45 g",
+          "sodium": "120 mg"
+        }
+      },      
+      {
+        "_id": "26",
+        "name": "Penne Arrabbiata",
+        "recipe": "Sauté garlic and chili flakes in olive oil, then add tomato sauce and simmer. Toss with cooked penne pasta and top with parmesan cheese.",
+        "image": "https://mission-food.com/wp-content/uploads/2023/07/Penne-all-Arrabbiata-Featured.jpg",
+        "category": "offered",
+        "price": 360,
+        "nutrition": {
+          "calories": "450 kcal",
+          "protein": "15 g",
+          "fat": "10 g",
+          "carbohydrates": "75 g",
+          "sodium": "600 mg"
+        }
+      },
+      {
+        "_id": "27",
+        "name": "Nutella Shake",
+        "recipe": "A creamy and rich blend of milk, Nutella, ice cream, and whipped cream, served chilled with a drizzle of Nutella on top.",
+        "image": "https://www.unicornsinthekitchen.com/wp-content/uploads/2019/07/Ultimate-Nutella-Milkshake-square.jpg",
+        "category": "drinks",
+        "price": 250,
+        "nutrition": {
+          "calories": "400 kcal",
+          "protein": "8 g",
+          "fat": "20 g",
+          "carbohydrates": "50 g",
+          "sodium": "150 mg"
+        }
+      },
+      {
+        "_id": "28",
+        "name": "Teriyaki Chicken Rice Bowl",
+        "recipe": "Juicy chicken glazed with a sweet and tangy teriyaki sauce, served over a bed of fluffy rice and accompanied by steamed vegetables.",
+        "image": "https://modernmealmakeover.com/wp-content/uploads/2020/10/IMG_6548-4.jpg",
+        "category": "meal",
+        "price": 260,
+        "nutrition": {
+          "calories": "620 kcal",
+          "protein": "35 g",
+          "fat": "18 g",
+          "carbohydrates": "85 g",
+          "sodium": "850 mg"
+        }
+      },
+      {
+        "_id": "29",
+        "name": "BBQ Chicken Pizza",
+        "recipe": "Smoky BBQ sauce layered with tender grilled chicken, red onions, and mozzarella cheese on a crispy crust. A sweet and savory pizza favorite!",
+        "image": "https://images.squarespace-cdn.com/content/v1/5d22274dbabc7000011cc689/1562627028903-44TFSI5QHTLJZDLEF8L5/Carolina+BBQ.jpg",
+        "category": "pizza",
+        "price": 580,
+        "nutrition": {
+          "calories": "700 kcal",
+          "protein": "30 g",
+          "fat": "30 g",
+          "carbohydrates": "80 g",
+          "sodium": "950 mg"
+        }
+      },
+      {
+        "_id": "30",
+        "name": "Beef Lasagna",
+        "recipe": "Layer cooked lasagna noodles with a rich mixture of ground beef, marinara sauce, and ricotta cheese, topped with mozzarella cheese.",
+        "image": "https://casuallypeckish.com/wp-content/uploads/2021/05/Lasagna-1.jpg",
+        "category": "popular",
+        "price": 490,
+        "nutrition": {
+          "calories": "800 kcal",
+          "protein": "25 g",
+          "fat": "18 g",
+          "carbohydrates": "65 g",
+          "sodium": "700 mg"
+        }
+      },
+      {
+        "_id": "31",
+        "name": "Pumpkin Soup",
+        "recipe": "A creamy blend of roasted pumpkin, spices, and broth, creating a warm and comforting dish. Topped with a drizzle of cream and fresh herbs for added flavor!",
+        "image": "https://www.chelseasmessyapron.com/wp-content/uploads/2024/09/Pumpkin-Soup-ChelseasMessyApron-1200-1-500x500.jpg",
+        "category": "soup",
+        "price": 220,
+        "nutrition": {
+            "calories": "220 kcal",
+            "protein": "4 g",
+            "fat": "5 g",
+            "carbohydrates": "40 g",
+            "sodium": "350 mg"
+        }
+    },
+    {
+      "_id": "32",
+      "name": "Passion Fruit Smoothie",
+      "recipe": "A refreshing blend of ripe passion fruit, yogurt, honey, and a splash of orange juice, served chilled.",
+      "image": "https://wholefoodsoulfoodkitchen.com/wp-content/uploads/2023/05/passion-fruit-smoothie-recipe.jpg",
+      "category": "offered",
+      "price": 250,
+      "nutrition": {
+          "calories": "150 kcal",
+          "protein": "3 g",
+          "fat": "2 g",
+          "carbohydrates": "35 g",
+          "sodium": "50 mg"
+      }
+  },
+    {
+        "_id": "33",
+        "name": "Fried Calamari",
+        "recipe": "Crispy, golden-fried calamari rings served with a tangy dipping sauce. A perfect appetizer with a light crunch and tender seafood flavor.",
+        "image": "https://coleycooks.com/wp-content/uploads/2023/11/fried-calamari-13.jpg",
+        "category": "appetizer",
+        "price": 400,
+        "nutrition": {
+            "calories": "450 kcal",
+            "protein": "15 g",
+            "fat": "25 g",
+            "carbohydrates": "40 g",
+            "sodium": "800 mg"
+        }
+    },
+    {
+        "_id": "34",
+        "name": "Classic Cheesecake",
+        "recipe": "A rich and creamy dessert made with a graham cracker crust, a blend of cream cheese, sugar, vanilla extract, and eggs, topped with berries.",
+        "image": "https://beyondfrosting.com/wp-content/uploads/2021/06/Creamy-Homemade-Cheesecake-090-1.jpg",
+        "category": "dessert",
+        "price": 250,
+        "nutrition": {
+            "calories": "480 kcal",
+            "protein": "8 g",
+            "fat": "32 g",
+            "carbohydrates": "40 g",
+            "sodium": "350 mg"
+        }
+    },
+    {
+        "_id": "35",
+        "name": "Tom Yum Soup",
+        "recipe": "Simmer shrimp, mushrooms, and herbs like lemongrass and kaffir lime leaves in a spicy and sour broth. Finish with lime juice and fish sauce for a tangy kick.",
+        "image": "https://www.carolinescooking.com/wp-content/uploads/2021/10/tom-yum-soup-featured-pic-sq.jpg",
+        "category": "offered",
+        "price": 360,
+        "nutrition": {
+            "calories": "180 kcal",
+            "protein": "15 g",
+            "fat": "8 g",
+            "carbohydrates": "15 g",
+            "sodium": "700 mg"
+        }
+    },
+    {
+        "_id": "36",
+        "name": "Chocolate Milkshake",
+        "recipe": "A rich and indulgent blend of cocoa powder, creamy yogurt, and ripe bananas, creating a luscious treat that's both satisfying and nutritious.",
+        "image": "https://joyfoodsunshine.com/wp-content/uploads/2024/06/homemade-chocolate-milkshake-recipe-1x1-1.jpg",
+        "category": "drinks",
+        "price": 200,
+        "nutrition": {
+            "calories": "400 kcal",
+            "protein": "10 g",
+            "fat": "15 g",
+            "carbohydrates": "60 g",
+            "sodium": "200 mg"
+        }
+    },
+    {
+        "_id": "37",
+        "name": "Mango Sticky Rice",
+        "recipe": "Sweet sticky rice served with ripe mango slices and drizzled with creamy coconut milk. A popular Thai dessert that balances rich sweetness.",
+        "image": "https://takestwoeggs.com/wp-content/uploads/2021/07/Thai-Mango-Sticky-Rice-Takestwoeggs-Process-Final-sq.jpg",
+        "category": "dessert",
+        "price": 290,
+        "nutrition": {
+            "calories": "350 kcal",
+            "protein": "5 g",
+            "fat": "7 g",
+            "carbohydrates": "70 g",
+            "sodium": "10 mg"
+        }
+    },
+    {
+        "_id": "38",
+        "name": "Ramen Noodles",
+        "recipe": "TA hearty bowl of Japanese noodles served in a rich, savory broth, topped with green onions, soft-boiled eggs, and your choice of protein. Ideal for a quick, satisfying meal!",
+        "image": "https://glebekitchen.com/wp-content/uploads/2018/08/koreanramenfront-500x500.jpg",
+        "category": "pasta",
+        "price": 320,
+        "nutrition": {
+            "calories": "400 kcal",
+            "protein": "14 g",
+            "fat": "8 g",
+            "carbohydrates": "70 g",
+            "sodium": "900 mg"
+        }
+    },
+    {
+        "_id": "39",
+        "name": "Tomato Basil Soup",
+        "recipe": " A delightful blend of ripe tomatoes and fragrant basil, simmered to create a smooth and creamy soup.",
+        "image": "https://www.chelseasmessyapron.com/wp-content/uploads/2014/02/Best-Tomato-Basil-Soup5-500x500.jpg",
+        "category": "soup",
+        "price": 170,
+        "nutrition": {
+            "calories": "210 kcal",
+            "protein": "5 g",
+            "fat": "6 g",
+            "carbohydrates": "35 g",
+            "sodium": "450 mg"
+        }
+    },
+    {
+        "_id": "40",
+        "name": "Spring Salad",
+        "recipe": "A vibrant mix of fresh greens and seasonal vegetables, tossed in a light dressing for a refreshing taste. Perfect for a healthy side dish or a light meal!",
+        "image": "https://arcticgrub.com/wp-content/uploads/2023/05/springsalad5-1-1-500x500.png",
+        "category": "salad",
+        "price": 330,
+        "nutrition": {
+            "calories": "180 kcal",
+            "protein": "4 g",
+            "fat": "7 g",
+            "carbohydrates": "24 g",
+            "sodium": "150 mg"
+        }
+    },
+    {
+        "_id": "41",
+        "name": "Nachos Supreme",
+        "recipe": "Crispy tortilla chips loaded with melted cheese, jalapeños, salsa, and sour cream. A perfect blend of crunchy, spicy, and creamy flavors in every bite.",
+        "image": "https://www.tasteofhome.com/wp-content/uploads/2018/01/Nacho-Pie_EXPS_SDJJ19_9783_E02_05_5b-1.jpg",
+        "category": "appetizer",
+        "price": 250,
+        "nutrition": {
+            "calories": "450 kcal",
+            "protein": "12 g",
+            "fat": "25 g",
+            "carbohydrates": "50 g",
+            "sodium": "800 mg"
+        }
+    },
+    {
+        "_id": "42",
+        "name": "Chocolate Mousse Cake",
+        "recipe": "A decadent chocolate cake with layers of rich chocolate mousse, topped with dark chocolate ganache and chocolate shavings.",
+        "image": "https://www.thehungrybites.com/wp-content/uploads/2016/11/easy-chocolate-mousse-cake-featured.jpg",
+        "category": "offered",
+        "price": 250,
+        "nutrition": {
+            "calories": "450 kcal",
+            "protein": "6 g",
+            "fat": "30 g",
+            "carbohydrates": "50 g",
+            "sodium": "170 mg"
+        }
+    },
+    {
+        "_id": "43",
+        "name": "Chocolate Brownie",
+        "recipe": "A rich and fudgy brownie made with high-quality cocoa, melted chocolate, butter, sugar, and topped with chocolate chips.",
+        "image": "https://spicysouthernkitchen.com/wp-content/uploads/2023/01/Spicy-Chocolate-Brownies-3-1.jpg",
+        "category": "dessert",
+        "price": 180,
+        "nutrition": {
+            "calories": "450 kcal",
+            "protein": "5 g",
+            "fat": "20 g",
+            "carbohydrates": "60 g",
+            "sodium": "150 mg"
+        }
+    },
+    {
+        "_id": "44",
+        "name": "Tuna Salad",
+        "recipe": "A refreshing mix of tender tuna blended with creamy mayonnaise, crunchy celery, and onions, served on a bed of crisp lettuce. Perfect as a light lunch or a protein-packed snack!",
+        "image": "https://bitesofwellness.com/wp-content/uploads/2019/01/Healthy-Mediterranean-tuna-salad-no-mayo-social1-500x500.jpg",
+        "category": "salad",
+        "price": 320,
+        "nutrition": {
+            "calories": "350 kcal",
+            "protein": "25 g",
+            "fat": "20 g",
+            "carbohydrates": "10 g",
+            "sodium": "600 mg"
+        }
+    },
+    {
+        "_id": "45",
+        "name": "Berry Parfait",
+        "recipe": "Layers of creamy yogurt, crunchy granola, and a medley of fresh mixed berries. A light and refreshing dessert or snack option.",
+        "image": "https://thefoodiephysician.com/wp-content/uploads/2019/02/Greek-Yogurt-Berry-Parfaits-1.jpg",
+        "category": "dessert",
+        "price": 260,
+        "nutrition": {
+            "calories": "220 kcal",
+            "protein": "8 g",
+            "fat": "3 g",
+            "carbohydrates": "40 g",
+            "sodium": "80 mg"
+        }
+    },
+    {
+        "_id": "46",
+        "name": "Chicken Cheese Ball",
+        "recipe": "Delicious chicken balls filled with melted cheese, coated in breadcrumbs and deep-fried until golden brown. Served with a tangy dipping sauce.",
+        "image": "https://www.sweeterthanoats.com/wp-content/uploads/2022/12/moussaka-1200-%C3%97-1200px-70.jpg",
+        "category": "appetizer",
+        "price": 220,
+        "nutrition": {
+            "calories": "400 kcal",
+            "protein": "25 g",
+            "fat": "28 g",
+            "carbohydrates": "30 g",
+            "sodium": "700 mg"
+        }
+    },
+    {
+        "_id": "47",
+        "name": "BBQ Grilled Chicken",
+        "recipe": "Marinate chicken pieces in BBQ sauce, then grill until fully cooked and charred. Serve with coleslaw on the side.",
+        "image": "https://grilledcheesesocial.com/wp-content/uploads/2024/06/bbq-chicken-thighs-recipe-thumbnail.jpg",
+        "category": "popular",
+        "price": 360,
+        "nutrition": {
+            "calories": "450 kcal",
+            "protein": "35 g",
+            "fat": "22 g",
+            "carbohydrates": "30 g",
+            "sodium": "800 mg"
+        }
+    },
+    {
+        "_id": "48",
+        "name": "Sausage and Peppers Pizza",
+        "recipe": "Italian sausage with bell peppers and onions, topped with mozzarella cheese on a classic crust.",
+        "image": "https://mightyfinepizza.com/wp-content/uploads/2024/01/Northman-Mighty-Fine-pizza.jpg",
+        "category": "pizza",
+        "price": 650,
+        "nutrition": {
+            "calories": "400 kcal",
+            "protein": "22 g",
+            "fat": "25 g",
+            "carbohydrates": "28 g",
+            "sodium": "850 mg"
+        }
+    },
+    {
+        "_id": "49",
+        "name": "Cashew Nut Salad",
+        "recipe": "A crunchy salad made with fresh vegetables like cucumbers, bell peppers, and carrots, roasted cashew nuts and a tangy dressing.",
+        "image": "https://annabanana.co/wp-content/uploads/2022/05/Thai-Cashew-Chicken-Feat-1.jpg",
+        "category": "popular",
+        "price": 260,
+        "nutrition": {
+            "calories": "200 kcal",
+            "protein": "6 g",
+            "fat": "14 g",
+            "carbohydrates": "18 g",
+            "sodium": "80 mg"
+        }
+    },
+    {
+        "_id": "50",
+        "name": "Shrimp Fried Rice",
+        "recipe": "A delicious blend of fried rice with shrimp, garlic, and mixed vegetables, finished with soy sauce.",
+        "image": "https://www.eatingonadime.com/wp-content/uploads/2019/08/Shrimp-Fried-Rice-Square-Pic.jpg",
+        "category": "meal",
+        "price": 350,
+        "nutrition": {
+            "calories": "600 kcal",
+            "protein": "30 g",
+            "fat": "20 g",
+            "carbohydrates": "65 g",
+            "sodium": "800 mg"
+        }
+    },
+    {
+        "_id": "51",
+        "name": "French Fries",
+        "recipe": "Crispy golden fries made from fresh potatoes, deep-fried to perfection and lightly salted. A perfect side dish for any meal.",
+        "image": "https://images.themodernproper.com/billowy-turkey/production/posts/2022/Homemade-French-Fries_8.jpg?w=1200&h=1200&q=60&fm=jpg&fit=crop&dm=1662474181&s=3b2f5e70873746d98cd312c67bc50bfe",
+        "category": "appetizer",
+        "price": 150,
+        "nutrition": {
+            "calories": "365 kcal",
+            "protein": "4 g",
+            "fat": "17 g",
+            "carbohydrates": "63 g",
+            "sodium": "400 mg"
+        }
+    },
+    {
+        "_id": "52",
+        "name": "Fish and Chips",
+        "recipe": " Batter and deep-fry fish fillets until golden brown, serve with crispy fries, tartar sauce, lemon and peas.",
+        "image": "https://www.london-unattached.com/wp-content/uploads/2012/09/Oven-Baked-Fish-with-Chips-and-Peas.jpg",
+        "category": "popular",
+        "price": 480,
+        "nutrition": {
+            "calories": "700 kcal",
+            "protein": "25 g",
+            "fat": "40 g",
+            "carbohydrates": "50 g",
+            "sodium": "1000 mg"
+        }
+    },
+    {
+        "_id": "53",
+        "name": "Chicken Lasagna",
+        "recipe": "Layers of pasta with creamy ricotta cheese, shredded chicken, and marinara sauce, topped with melted mozzarella.",
+        "image": "https://www.feastingathome.com/wp-content/uploads/2013/01/Chicken-Lasagna.jpg",
+        "category": "popular",
+        "price": 520,
+        "nutrition": {
+            "calories": "650 kcal",
+            "protein": "40 g",
+            "fat": "30 g",
+            "carbohydrates": "50 g",
+            "sodium": "800 mg"
+        }
+    },
+    {
+        "_id": "54",
+        "name": "Blueberry Cheesecake",
+        "recipe": "Creamy cheesecake topped with a layer of blueberry sauce, served on a graham cracker crust.",
+        "image": "https://www.scatteredthoughtsofacraftymom.com/wp-content/uploads/2022/04/blueberry-cheesecake-square.jpg",
+        "category": "popular",
+        "price": 280,
+        "nutrition": {
+            "calories": "330 kcal",
+            "protein": "6 g",
+            "fat": "20 g",
+            "carbohydrates": "30 g",
+            "sodium": "210 mg"
+        }
+    }
+
+  ]
+  
